@@ -6,6 +6,12 @@
 
 **스핑크스는 답을 알려주지 않습니다. 질문을 합니다.**
 
+<br/>
+
+![Status](https://img.shields.io/badge/status-in%20progress-D99A2B?style=flat-square)
+![Stage](https://img.shields.io/badge/stage-private%20beta-122B4E?style=flat-square)
+![Year](https://img.shields.io/badge/2026-FinTech-4ADE80?style=flat-square)
+
 </div>
 
 ---
@@ -31,9 +37,9 @@ AI    이 발화가 항목을 이해한 것인가     →  측정값 (등급 · 
 
 ## 어떻게 일하는가
 
-**왜 그렇게 했는지가 남습니다.** 배선·계약 결정 378건이 한 파일에, 원칙급 결정 8건이 ADR 로 있습니다. 자기 영역을 고치기 전에 그 절을 먼저 읽습니다. 결정이 바뀌면 기존 문서를 고치지 않고 새 기록을 얹습니다 — *"그때 무엇을 정했나"* 를 나중에도 읽을 수 있어야 합니다.
+**왜 그렇게 했는지가 남습니다.** 배선·계약 결정이 전수로 한 파일에, 원칙급 결정 8건이 ADR 로 있습니다. 자기 영역을 고치기 전에 그 절을 먼저 읽습니다. 결정이 바뀌면 기존 문서를 고치지 않고 새 기록을 얹습니다 — *"그때 무엇을 정했나"* 를 나중에도 읽을 수 있어야 합니다.
 
-**테스트가 구현보다 많습니다.** 구현 27,561줄, 테스트 31,356줄.
+**테스트가 구현과 비슷한 규모입니다.** 코드 파일(`.java`·`.py`·`.ts`) 기준으로 구현 27,561줄, 테스트 31,356줄입니다. 선언적 룰 파일을 구현으로 세면 이 문장은 뒤집히므로 세는 규칙을 같이 적습니다.
 
 **주장에는 실측을 붙입니다.** 리뷰에서 *"그럴 것이다"* 는 근거가 아닙니다. 고친 자리에 변이를 넣어 그물이 실제로 우는지 확인하고, **0건을 검사하고도 통과하는 그물**을 따로 잡습니다. 검사가 눈을 감은 채 초록인 것이 검사가 없는 것보다 나쁩니다.
 
@@ -48,6 +54,8 @@ AI    이 발화가 항목을 이해한 것인가     →  측정값 (등급 · 
 ## 팀
 
 2026 금융 AI Challenge · 4인
+
+<div align="center"> <table> <tr> <td align="center" width="160"> <a href="https://github.com/gitIt-sehyeon"> <img src="https://github.com/gitIt-sehyeon.png" width="90" height="90" alt="정세현"/> </a> </td> <td align="center" width="160"> <a href="https://github.com/yoonjiseok"> <img src="https://github.com/yoonjiseok.png" width="90" height="90" alt="윤지석"/> </a> </td> <td align="center" width="160"> <a href="https://github.com/junseo2323"> <img src="https://github.com/junseo2323.png" width="90" height="90" alt="오준서"/> </a> </td> <td align="center" width="160"> <a href="https://github.com/hd0rable"> <img src="https://github.com/hd0rable.png" width="90" height="90" alt="강희진"/> </a> </td> </tr> <tr> <td align="center"><b>정세현</b></td> <td align="center"><b>윤지석</b></td> <td align="center"><b>오준서</b></td> <td align="center"><b>강희진</b></td> </tr> <tr> <td align="center"><a href="https://github.com/gitIt-sehyeon">@gitIt-sehyeon</a></td> <td align="center"><a href="https://github.com/yoonjiseok">@yoonjiseok</a></td> <td align="center"><a href="https://github.com/junseo2323">@junseo2323</a></td> <td align="center"><a href="https://github.com/hd0rable">@hd0rable</a></td> </tr> </table> </div>
 
 | | 무엇을 소유하나 |
 |---|---|
